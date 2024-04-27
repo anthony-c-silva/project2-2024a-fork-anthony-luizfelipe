@@ -1,0 +1,107 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #224994;
+
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    background-color: #2166B4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .circle-text {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+  }
+  .text-select{
+    font-weight: bold;
+    color: #FF9A30;
+  }
+  
+/* categories.css */
+
+.category-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.carousel-control-next {
+  justify-content: end !important;
+}
+
+.carousel-control-prev {
+  justify-content: start !important;
+}
+
+.category-item {
+  display: flex;
+  justify-content: center;
+  flex-basis: 33.33%;
+  text-align: center;
+  
+}
+
+.category-item .category-item-content {
+  background-color: #2166B4; /* Cor de fundo padrão */
+  color: white; /* Cor do texto padrão */
+  border-radius: 10px; /* Adiciona borda arredondada */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.category-item-selected .category-item-content {
+  background-color: #FF9A30; /* Cor de fundo para o item selecionado */
+  color: white; /* Cor do texto para o item selecionado */
+}
+@media (max-width: 992px) {
+  .category-item {
+    flex-basis: 50%; /* Dois itens por linha em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .category-item {
+    flex-basis: 100%; /* Um item por linha em telas ainda menores */
+  }
+}
+
+
+  
+.nav-user {
+    background-color: #093252;
+    position: relative;
+ 
+}
+
+.alert-warning {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Certifique-se de que a mensagem esteja acima de outros elementos */
+}
+
+.card-points {
+    background-color: #213D64;
+}

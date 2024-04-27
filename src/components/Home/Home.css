@@ -1,0 +1,45 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #224994;
+
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    background-color: #2166B4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .circle-text {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+  }
+
+  
+
+.card-user {
+    background-color: #093252;
+ 
+}
+
+.card-points {
+    background-color: #213D64;
+}
